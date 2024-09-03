@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Online</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Links para os arquivos de ícones externos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Cabeçalho com navegação principal -->
+    <header>
+        <nav>
+            <ul>
+                <!-- Links de navegação que ativam diferentes seções usando JavaScript -->
+                <li><a href="#" onclick="showSection('about')">Sobre Mim</a></li>
+                <li><a href="#" onclick="showSection('education-experience')">Formação e Experiência</a></li>
+                <li><a href="#" onclick="showSection('portfolio')">Portfólio</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção "Sobre Mim" -->
+        <section id="about" class="section active">
+            <h1>Sobre Mim</h1>
+            <p><strong>LUCAS ANDRADE</strong></p>
+            <p>Fortaleza, CE</p>
+            <p>Telefone: (85) 99633-1923 / (85) 98875-5877</p>
+            <p>Email: <a href="mailto:jardellucas078@gmail.com">jardellucas078@gmail.com</a></p>
+        
+            <!-- Links para os meus perfis do GitHub e LinkedIn -->
+            <p>
+                <a href="https://github.com/LucasAndradeDev" target="_blank" style="text-decoration: none;" color="">
+                    <i class="fab fa-github"></i> GitHub
+                </a> | 
+                <a href="https://www.linkedin.com/in/lucas-andrade-6a03331b2/" target="_blank" style="text-decoration: none;">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </p>
+        
+            <h2>Um pouco mais...</h2>
+            <p>Oi! Tudo bem? Meu nome é Lucas e tenho 23 anos. Sou apaixonado por tecnologia e adoro explorar as últimas inovações na área. Estou sempre tentando aprender uma nova biblioteca ou algo do tipo. Além disso, sou uma pessoa que ama música, especialmente MPB e rock. Aliás, aceito sugestões de músicas!</p>
+        
+            <p>Nos meus momentos de lazer, gosto de ler livros, principalmente de fantasia, ficção científica (sci-fi) e terror, que me permitem mergulhar em diferentes mundos e perspectivas. Também valorizo muito o tempo em família e os momentos com amigos, não importa onde eu esteja.</p>
+        
+            <p>Adoro estar em contato com a natureza. Quando saio para caminhar, me sinto bem e consigo pensar em soluções para bugs. Estou sempre em busca de aprender coisas novas e me desafiar, tanto no campo profissional quanto pessoal. Acredito que o aprendizado contínuo e as boas conexões humanas são fundamentais para uma vida plena e enriquecedora.</p>
+        </section>
+        
+
+        <!-- Seção "Formação e Experiência" -->
+        <section id="education-experience" class="section">
+            <h1>Formação e Experiência</h1>
+            <h2>Objetivo</h2>
+            <p>Atuar como estagiário na área de desenvolvimento web, com foco em adquirir experiência prática e aprofundar conhecimentos em desenvolvimento backend ou full stack.</p>
+
+            <h2>Resumo Profissional</h2>
+            <p>Sou estudante de Análise e Desenvolvimento de Sistemas na Uninter, com conclusão prevista para 2026. Tenho interesse em especializar-me na criação de sistemas robustos e escaláveis, utilizando tecnologias como Node.js e Java para o backend e ferramentas como HTML, CSS, JavaScript e React para o frontend. Busco uma posição de estágio para aplicar o conhecimento adquirido e continuar aprimorando minhas habilidades técnicas em um ambiente dinâmico e desafiador, com o objetivo de me tornar um desenvolvedor full stack.</p>
+
+            <!-- Detalhes da formação acadêmica e experiência profissional -->
+            <h2>Formação Acadêmica</h2>
+            <p><strong>Análise e Desenvolvimento de Sistemas</strong></p>
+            <p>Uninter - Conclusão prevista para 2026</p>
+
+            <h2>Experiência Profissional</h2>
+            <p><strong>MHF Manutenção de Veículos</strong></p>
+            <p>Auxiliar Administrativo - Setembro/2023 - Maio/2024</p>
+            <ul>
+                <li>Gestão de estoques e suprimentos.</li>
+                <li>Gestão de documentos.</li>
+                <li>Auxílio na elaboração de relatórios.</li>
+            </ul>
+
+            <!-- Lista de idiomas -->
+            <h2>Idiomas</h2>
+            <ul>
+                <li><strong>Inglês:</strong> Intermediário</li>
+                <li><strong>Espanhol:</strong> Básico</li>
+            </ul>
+
+            <!-- Formação complementar e cursos -->
+            <h2>Formação Complementar</h2>
+            <h3>Cursos</h3>
+            <ul>
+                <li><strong>CC50 - Ciência da Computação</strong> - Harvard (50h)</li>
+                <li><strong>Geração Tech: Formação Intensiva em Desenvolvimento Web Full Stack</strong> - IEL Ceará (192h)</li>
+                <li><strong>Ignite NodeJS</strong> - Rocketseat (60h)</li>
+                <li><strong>Ignite ReactJS</strong> - Rocketseat (50h)</li>
+                <li><strong>Full Stack JavaScript</strong> - One Bit Code (70h)</li>
+                <li><strong>HTML5 e CSS3</strong> - Curso em Vídeo (120h)</li>
+                <li><strong>Excel Impressionador</strong> - Hashtag Treinamentos (80h)</li>
+                <li><strong>SQL do Básico ao Avançado (com MySQL e Projeto)</strong> - Hora de Codar (20h)</li>
+                <li><strong>Java POO</strong> - Curso em Vídeo (40h)</li>
+            </ul>
+
+            <!-- Eventos e Bootcamps -->
+            <h3>Eventos e Bootcamps</h3>
+            <ul>
+                <li><strong>Imersão Dev</strong> - Alura e Google (15h)</li>
+                <li><strong>NLW Pocket Javascript</strong> - Rocketseat (15h)</li>
+                <li><strong>Banco de Dados Oracle PL/SQL</strong> - Instituto Matera (20h)</li>
+                <li><strong>Orion Bootcamp</strong> - New rizon (140h)</li>
+                <li><strong>Avanti Bootcamp</strong> - Instituto Atlântico (80h)</li>
+                <li><strong>Cyber Academy</strong> - Febraban (40h)</li>
+            </ul>
+        </section>
+
+        <!-- Seção "Portfólio" com detalhes dos projetos -->
+        <section id="portfolio" class="section">
+            <h1>Portfólio</h1>
+            <p><strong>Drip Store</strong></p>
+            <p>Projeto full stack desenvolvido em grupo utilizando React e Node.js. Fui responsável pelo backend e liderei parte da equipe. A Drip Store é um e-commerce de vestuário esportivo.</p>
+            <p><a href="https://github.com/davi-gama/drip-store" target="_blank">Link do Projeto</a></p>
+            <p>Deploy: Em andamento.</p>
+
+            <p><strong>Sistema de Clínica Médica</strong></p>
+            <p>Projeto em desenvolvimento para gestão de consultas em uma clínica médica, utilizando tecnologias modernas para o backend e frontend.</p>
+            <p>Link do Projeto: Em andamento.</p>
+            <p>Deploy: Em andamento.</p>
+        </section>
+
+        <!-- Seção "Contato" com um formulário -->
+        <section id="contact" class="section">
+            <h1>Contato</h1>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>&copy; 2024 Lucas Andrade</p>
+    </footer>
+
+    <!-- Script JavaScript para manipulação de seções -->
+    <script src="app.js"></script>
+</body>
+
+</html>
